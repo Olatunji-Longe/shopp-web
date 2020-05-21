@@ -7,6 +7,7 @@ import Books from './components/Books';
 import NavBar from "./components/NavBar";
 import Cart from "./components/Cart";
 import BookDetail from "./components/BookDetail";
+import OrderConfirmation from "./components/OrderConfirmation";
 
 const ContextContainer = React.createContext(null);
 
@@ -34,6 +35,7 @@ function App() {
           <Route path="/books" component={Books} />
           <Route path="/book/:bookId" component={BookDetail} />
           <Route path="/cart/:cartId" component={Cart}/>
+          <Route path="/checkout" component={OrderConfirmation}/>
         </Switch>
       </main>
     </Router>

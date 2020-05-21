@@ -1,14 +1,14 @@
 # Getting Started
 
 ### About this project
-This project is a web client for a bookshop app `shopp` that exposes several REST endpoint that are consumed by this client.
+This project is a web client for a bookshop app [shopp:](https://github.com/Olatunji-Longe/shopp) that exposes several REST endpoints being consumed by this client.
 
 ---
 
 ### Tech Stack/Dependencies
 This project utilizes the following technologies;
-- React
-- Depends on an API service to already be running before start up.
+- React (web-hooks)
+- Depends on an API service [shopp:](https://github.com/Olatunji-Longe/shopp) which should be running before start up.
  Link to the backend service and how to start it up can be found here: https://github.com/Olatunji-Longe/shopp
     
 ---

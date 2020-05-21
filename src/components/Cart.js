@@ -1,5 +1,5 @@
 import React, {useContext, useEffect, useState} from 'react';
-import {useParams} from 'react-router-dom';
+import {useParams, Link} from 'react-router-dom';
 import CartItem from "./CartItem";
 import * as configs from "../configs/settings";
 import * as money from "../utils/financial";
@@ -57,7 +57,9 @@ function Cart() {
             </table>
             <p className="row">
             <span className="ml-auto">
-              <a href="/checkout" className="btn btn-success btn-lg"> Checkout <span className="fa fa-forward"></span></a>
+              <Link to="/checkout" className="btn btn-success btn-lg">
+                Checkout <span className="fa fa-forward"></span>
+              </Link>
             </span>
             </p>
           </div>
