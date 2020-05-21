@@ -1,3 +1,40 @@
+# Getting Started
+
+### About this project
+This project is a web client for a bookshop app `shopp` that exposes several REST endpoint that are consumed by this client.
+
+---
+
+### Tech Stack/Dependencies
+This project utilizes the following technologies;
+- React
+- Depends on an API service to already be running before start up.
+ Link to the backend service and how to start it up can be found here: https://github.com/Olatunji-Longe/shopp
+    
+---
+    
+### Execution
+- Navigate to the root of the project and execute the following command to install all required dependencies;
+
+```
+    npm install
+```
+
+After all the necessary modules have been installed, execute the following command to start the application and launch
+a browser page @ `http://localhost:3000/`
+
+```
+    npm start
+```
+
+Happy Testing!
+
+
+
+
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
