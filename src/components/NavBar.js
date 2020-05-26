@@ -15,12 +15,13 @@ function NavBar() {
     fetch(configs.settings.remote.api.baseUrl+"/nav/cart/"+cartId)
       .then(response => response.json())
       .then(data => {
+        setCartId(cartId);
         setBookCount(data.bookCount);
         setCartItemCount(data.cartItemCount);
       });
   }, []);
 
-  if(!cartItemCount){return null;}
+  if(!cartId){return null;}
   return(
     <nav className="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark">
       <Link className="navbar-brand" to="/">Shopp</Link>

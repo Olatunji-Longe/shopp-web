@@ -1,2 +1,6 @@
-let currency = '$';
-export let format = (x) => currency+Number.parseFloat(x).toFixed(2);
+export let format = (amount) => new Intl.NumberFormat("en-CA", {
+  style: "currency",
+  currency: "CAD",
+  minimumFractionDigits: 2,
+  maximumFractionDigits: 2
+}).format(amount)
