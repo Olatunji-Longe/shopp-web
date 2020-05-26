@@ -43,6 +43,12 @@ body .content {
     padding: 40px;
 }
 
+.billing{
+    background-color: #cacaca;
+    padding: 20px;
+    border-radius: 2%;
+}
+
 .fs-12 {
     font-size: 12px
 }

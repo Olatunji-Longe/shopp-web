@@ -34,12 +34,12 @@ function Book({book}) {
                 <em className="text-success">{book.language}</em>
               </span>
             </p>
-            <h3 className="card-text">
+            <h5 className="card-text">
               <span>{money.format(book.price)}</span>
               <span className="float-right">
                 <ButtonAddToCart buttonParams={buttonParams} />
               </span>
-            </h3>
+            </h5>
           </div>
         </div>
       </div>
